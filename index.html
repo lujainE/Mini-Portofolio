@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Portofolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="nav">
+        <ul class="nav-links">
+            <li><a href="#container1">Home</a></li>
+            <li><a href="#container2" class="active">About</a></li>
+            <li><a href="#contact-us">contact</a></li>
+        </ul>
+    </div>
+
+    <div id="main-container">
+        <div id="container1">
+            <div id="profile-content">
+                <h3>Introduction</h3>
+                <p>I am a joiner developer with well developed skills and 1 year of experience, 
+                    I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. 
+                    I am keen to return to work after a period of training and personal development which has broadened my skills and experiences</p>
+                </div>
+            <div id="profile-image">
+                <img src="D:\CodingDojo\Mini Portofolio\icons\user-circle.png" alt="profile photo">
+            </div>
+
+        </div>
+
+        <div class="sub-container">
+
+            <div>
+                <h2>My Projects</h2>
+            </div>
+            <div id="container2">
+                <div>
+                    <div id="project-img">
+                        <img src="D:\CodingDojo\Mini Portofolio\icons\logo2.jpg" alt="logo photo">
+                    </div>
+                    <div id="header">
+                        <h3>Love Accessories</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container3">
+                <div>
+                    <div id="project-img">
+                        <img src="D:\CodingDojo\Mini Portofolio\icons\logo1.jpg" alt="logo photo">
+                    </div>
+                    <div id="header">
+                        <h3>Party Planner</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container4">
+                <div>
+                    <div id="project-img">
+                        <img src="D:\CodingDojo\Mini Portofolio\icons\logo.jpg" alt="logo photo">
+                    </div>
+                    <div id="header">
+                        <h3>Summer Juice</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            
+            <div id="contact-us">
+                <form id="form">
+                    <div>
+                    <h3>contact me</h3>
+                    </div>
+                    <div>
+                        <label for="fname">First Name<br></label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                    <div><label for="lname">Last Name<br></label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                    <div><label for="lname">Email<br></label>
+                        <input type="text" id="Email" name="Email" placeholder="Your Email..">
+                    </div>
+                    <div><label for="lname">Phone #<br></label>
+                        <input type="text" id="Phone" name="Phone" placeholder="Your Phone #..">
+                    </div>
+                    <div>
+                        <label for="message">Message<br></label>
+                        <textarea id="message" name="message" placeholder="Write your message.."
+                            style="height:100px"></textarea>
+                    </div>
+                    <button id="btn" type="button">Send</button>
+                </form>
+            </div>
+        </div>
+
+    <div class="container">
+        <div id="list">
+            <h3>My Skills</h3>
+            <input type="text" placeholder="Enter skill..">
+            <button id="push">Add skill</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+    </div> 
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
